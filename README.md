@@ -8,5 +8,5 @@ int main(void)
 std::cout << "hello world";
 }
 ```
-![TRIANGLE](http://url/Users\mouni\Pictures)
+![alt text](http://url/to/img.png)
 
