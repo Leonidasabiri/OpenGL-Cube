@@ -1,0 +1,1 @@
+# The imgui folder contains the necessary imgui .cpp files to be linked with glfw and opengl3
