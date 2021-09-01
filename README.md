@@ -8,4 +8,5 @@ int main(void)
 std::cout << "hello world";
 }
 ```
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![TRIANGLE](http://url/to/imagetest)
+
