@@ -1,0 +1,2 @@
+The imgui folder contains the necessary imgui .cpp files to be linked with glfw and opengl3
+The full imgui library can be found here in this repo https://github.com/ocornut/imgui
