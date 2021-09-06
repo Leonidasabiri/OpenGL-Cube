@@ -151,8 +151,11 @@
     <ClCompile Include="imgui\imgui_tables.cpp" />
     <ClCompile Include="imgui\imgui_widgets.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Shaders.cpp" />
+    <ClCompile Include="Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Cube.h" />
     <ClInclude Include="imgui\imconfig.h" />
     <ClInclude Include="imgui\imgui.h" />
     <ClInclude Include="imgui\imgui_impl_glfw.h" />
@@ -160,10 +163,15 @@
     <ClInclude Include="imgui\imgui_impl_opengl3_loader.h" />
     <ClInclude Include="imgui\imgui_internal.h" />
     <ClInclude Include="Shaders.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="Textures.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Fragement.shader" />
     <None Include="Vertex.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\dark.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
