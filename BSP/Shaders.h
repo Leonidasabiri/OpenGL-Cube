@@ -17,13 +17,6 @@ public:
 	
 	unsigned int vs, fs, shaderprogram;
 
-	/*void printShaders()
-	{
-		std::cout << "Fragement";
-		std::cout << fragement;
-		std::cout << "Vertex";
-		std::cout << vertex;
-	}*/
 	void parseShaderCode(std::string path1, std::string path2);
 	unsigned int getShderProgramID();
 	void destroyShader()
