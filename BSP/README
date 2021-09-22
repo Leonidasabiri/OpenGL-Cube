@@ -1,2 +1,6 @@
 The imgui folder contains the necessary imgui .cpp files to be linked with glfw and opengl3
-The full imgui library can be found here in this repo https://github.com/ocornut/imgui
+The full imgui library can be found here in this repo:
+https://github.com/ocornut/imgui
+
+The stb_image header file is a header file used for manipulating images and loading texture , you can find it here in this repo : 
+https://github.com/nothings/stb/blob/master/stb_image.h 
