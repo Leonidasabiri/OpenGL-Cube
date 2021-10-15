@@ -1,9 +1,4 @@
-# OpenGL-BSP
-In developement
-
-Trying to implement the Binary Space Partioning algorithm.
-
-(Do not look at the code now there is just a cube i didn't partition the hyperplanes yet !!)
+# OpenGL-Cube
 
 
 ![bsp](https://user-images.githubusercontent.com/54768823/134441847-60fa0365-85ce-4216-bfff-907a84938901.PNG)
