@@ -18,11 +18,6 @@ void fbscallback(GLFWwindow *window, int width, int height);
 const unsigned int WIDTH  = 800;
 const unsigned int HEIGHT = 800;
 
-static float fov		  = 45.0f;
-static float scale_factor = 1.0f;
-static float rotationx	  = 0.0f;
-static float x = 0.0f, y  = 0.0f , scaleX = 0.0f, scaleY = 0.0f;
-static float color[3]	  = { 1.0f,1.0f,1.0f};
 
 int main()
 {
@@ -62,6 +57,12 @@ int main()
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		tex.bindTexture();	
 
+		static float fov	  = 45.0f;
+		static float scale_factor = 1.0f;
+		static float rotationx	  = 0.0f;
+		static float x = 0.0f, y  = 0.0f , scaleX = 0.0f, scaleY = 0.0f;
+		static float color[3]	  = { 1.0f,1.0f,1.0f};
+		
 		cube.renderCube(shader.getShderProgramID(), rotationx, fov, 0.1f, WIDTH, HEIGHT);
 		cube1.renderCube(shader.getShderProgramID(), rotationx, fov, 0.4f, WIDTH, HEIGHT);
 		ImGui::Begin("Transform");
